@@ -57,7 +57,7 @@ public class apiCall extends AppCompatActivity {
     private OkHttpClient okHttpClient;
     private Request request;
     private String urlFirst = "https://proapi.whitepages.com/3.0/phone_reputation?phone=";
-    private String urlLast = "&api_key=27b32d68aa1142948d336ef2b3cae8cf";
+    private String urlLast = "removed";
 
     public apiCall(String phoneNumber){
         createNotificationChannel();
